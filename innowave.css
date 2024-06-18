@@ -1,0 +1,221 @@
+*{
+	margin:0;
+	box-sizing: border-box;
+}
+				/*header main container*/
+
+/* body
+ {
+    background-image:url("background2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+
+body
+{
+/*	background-color:#C0C0C0;*/
+	background-color: white;
+}
+
+.header
+{
+	width:100%;
+	height:130px;
+	background-color:#ffffff;
+
+	display: flex;
+	flex-direction:row;
+	justify-content: space-between;
+	align-items:center;
+
+	padding-left:30px;
+	padding-right:25px;
+	position:fixed;
+}
+
+/*icons*/
+.bx 
+{
+	background-color:transparent;
+	font-size: 32px;
+	margin-right:20px;
+	width:25px;
+	height:33px;
+}
+
+/*company name*/
+.header .name h1
+{
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size:43px;
+	letter-spacing:1.2px;
+	word-spacing: 1.5px;
+	color:black;
+}
+
+/*heading sub*/
+.header .name p
+{
+	color:black;
+	font-size: 21px;
+	font-family: Georgia, serif;
+	letter-spacing:2px;
+	word-spacing: 1.5px;
+	line-height:2 ;
+}
+
+/*input box*/
+.header .search input[type=text]
+{
+	font-size: 20px;
+	letter-spacing:2px;
+	border:none;
+	padding:5px;
+}
+
+/*input box hover*/
+input[type=text]:hover
+{
+	background-color:#BEBEBE;
+	color:black;
+}
+
+/*main section*/
+.main 
+{
+	margin-top:50px;
+	display:flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	gap:10px;
+	
+}
+
+
+/*main section employees*/
+.profile
+{
+	
+	background-color: white;
+/*	border:1px solid dimgrey;*/
+	height:600px;
+	width:300px;
+	margin-bottom:25px;
+
+}
+
+
+/*image class of employees*/
+.image
+{
+	 width: 300px;
+    height: 337px;
+    padding: 19px;
+    border-radius: 50%;
+}
+
+/*home image computer desk */
+.home-image img
+{
+	width:100%;
+	height:780px;
+	margin-top:130px;
+	position:relative;
+}
+
+/*home image text*/
+.home-image .text
+{
+	width:500px;
+	height:160px;
+	position:absolute;
+	left:18px;
+	top:70%;
+	right:70%;
+	font-size: 21px;
+	word-spacing: 1.5;
+	line-height: 1.7;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+/*our team section*/
+.team
+{
+		  color:#C0C0C0;
+		  margin-top: 40px;
+		  font-size: 64px;
+        line-height: 1.2;
+        font-weight: 600;
+        letter-spacing:1;
+        font-family:  Helvetica, Arial, sans-serif;
+        text-align:center;
+}
+
+/*employee name*/
+.profile h2
+{
+	text-align:center;
+	font-size:29px;
+	margin-bottom:6px;
+}
+
+/*employee job position*/
+.profile h4
+{
+	color:blue;
+	font-size:20px;
+	text-align:center;
+}
+
+/*employee about paragraph*/
+.profile p
+{
+	font-size:18px;
+	background-color: white;
+	margin-top:12px;
+	word-spacing:1;
+	line-height: 1.6;
+	padding:10px;
+	text-align: justify;
+}
+
+footer
+{
+	background-color:#ceccd9;
+	width:100%;
+	height:250px;
+	/*position: fixed;
+	bottom:0;*/
+
+}
+/*footer icons*/
+.footer-icons ul
+{
+	padding-top: 40px;
+	gap:20px;
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+}
+
+.list:hover
+{
+	color:white;
+	font-size: 40px;
+}
+
+.footer-details
+{
+	display:flex;
+	justify-content: space-between;
+	margin-top:20px;
+	line-height:1.5;
+	letter-spacing: 1.5px;
+	font-size: 17px;
+	margin-left:20px;
+	margin-right:20px;
+	color:white;
+}
+
+	
